@@ -1,6 +1,19 @@
 ---
 name: vpn-connect
-description: VPN 连接管理。自动检测并连接 VPN 以访问内网服务（唤醒电脑、路由重拨）或访问 Google/GitHub 等服务。触发词：启动vpn、连接vpn、vpn状态、停止vpn。
+description: "VPN connection management - auto-detect and connect IKEv2 VPN for LAN/Internet access"
+version: 1.0.0
+author: lzylipu
+license: MIT
+platforms: [linux]
+prerequisites:
+  env_vars: [VPN_SERVER, VPN_CONNECTION_NAME, VPN_NETWORK]
+metadata:
+  hermes:
+    tags: [vpn, ikev2, ipsec, network, lan, 连接, 内网]
+    related_skills: [wake-pc, openwrt-redial, permission-control]
+    homepage: https://github.com/lzylipu/openclaw-skill-vpn-connect
+    category: personal
+    skill_type: automation
 ---
 
 # VPN 连接技能
