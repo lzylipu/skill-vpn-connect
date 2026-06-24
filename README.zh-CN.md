@@ -1,6 +1,6 @@
 # VPN 连接技能
 
-**[English](./README.md) | [中文](./README.zh-CN.md)**
+**[English](./README.md) | 中文**
 
 IKEv2 VPN 智能连接管理，用于访问内网服务和国际网络。
 
