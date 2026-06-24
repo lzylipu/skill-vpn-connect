@@ -1,5 +1,7 @@
 # VPN Connect Skill
 
+**[English](./README.md) | [中文](./README.zh-CN.md)**
+
 Smart IKEv2 VPN connection management for accessing LAN services and international network.
 
 ## Features
